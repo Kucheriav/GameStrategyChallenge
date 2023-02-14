@@ -1,6 +1,7 @@
 class Game:
     variants = ['камень', 'ножницы', 'бумага']
 
+
     def __init__(self, players_n=2, bots_n=1, victory_limit = 1):
         self.players_n = players_n
         self.bots = [Bot for i in range(bots_n)]
